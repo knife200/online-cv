@@ -52,7 +52,7 @@ career-profile:
     title: Career Profile
     summary: |
       Joonyoung Seo received the B.S. degree in Electrical Engineering in 2023 from POSTECH.
-      He is currently the M.S. candidate in electrical engineering in 2023 from POSTECH
+      He is currently the M.S. candidate in electrical engineering in 2023 from POSTECH.
 
 education:
     - degree: BSc in Electrical Engineering
@@ -60,33 +60,18 @@ education:
       time: 2019 - 2023
       details: |
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: MSc in Electrical Engineering
+      university: POSTECH
+      time: 2023
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Intern
+      time: 2022
+      company: SK Hynix
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+        Researched and developed verification of SRAM with UVM(Universal Verification Methodology).
+
     - role: Senior Software Engineer
       time: 2014 - 2015
       company: Google, London
