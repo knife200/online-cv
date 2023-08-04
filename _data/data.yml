@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Joonyoung Seo
     tagline: Master candidate of CSDL, POSTECH in Korea
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: KakaoTalk_20230804_142611177 (1).png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: jys2001@postech.ac.kr
@@ -79,7 +79,7 @@ projects:
 
     assignments:
       - title: 3rd Prize in AIX Deep Learning Hardware Design Contest
-        link: "#"
+        link: "https://ssai.snu.ac.kr/ko/board/eventFAQ/view/345"
         tagline: "July 2022"
 
 
