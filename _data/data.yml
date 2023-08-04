@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Joonyoung Seo
     tagline: Master candidate of CSDL, POSTECH in Korea
-    avatar: KakaoTalk_20230804_142611177.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: jys2001@postech.ac.kr
