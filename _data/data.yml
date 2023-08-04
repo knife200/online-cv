@@ -4,7 +4,7 @@
 
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Joonyoung Seo
@@ -15,18 +15,18 @@ sidebar:
     email: jys2001@postech.ac.kr
     phone: 010 7740 0176
     citizenship: Korean
-    website: 
-    linkedin: 
-    xing: 
+    website:
+    linkedin:
+    xing:
     github: knife200
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: 
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: 
+    pdf:
 
     languages:
       - idiom: Korean
@@ -35,103 +35,159 @@ sidebar:
       - idiom: English
         level: Normal
 
+      - idiom: 
+        level: 
+
     interests:
-      - item: 
+      - item: Climbing
         link:
 
-      - item: 
+      - item: Snowboarding
         link:
-      
-      - item: 
+
+      - item: Cooking
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      
-
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
 education:
-    - degree: M.Sc in Electrical Engineering
-      university: in CSDL, POSTECH (Pohang University of Science and Technology)
-      time: August 2023 - present
+    - degree: MSc in Computer Science
+      university: University of London
+      time: 2011 - 2012
       details: |
-        Advisor: Prof. Seokhyeong Kang
-
-    - degree: BSc in Electrical Engineering
-      university: POSTECH
-      time: March 2019 - August 2023
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
+      time: 2007 - 2011
       details: |
-
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
 experiences:
-    - role: Intern (CUop program)/ AI research team
-      time: Jan 2022
-      company: SK hynix
-      details: | Researched and developed verification of SRAM with UVM(Universal Verification Methodology).
-
-        
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+          - Bullet point
+          - Bullet point
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
 projects:
-    title: Award & Scholarshipment
-   
+    title: Projects
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: PARK HWASEOK SCHOLARSHIP
+      - title: Velocity
         link: "#hook"
-        tagline: "NOV 2020"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-
-      - title: INTOPS PYEONGSAN SCHOLARSHIP
+      - title: DevStudio
         link: "#"
-        tagline: "JAN 2021 – DEC 2022"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
 
-
-      - title: 3rd PRIZE IN GIST EECS Bachelor's Degree Research Award
+      - title: Tempo
         link: "#"
-        tagline: "DEC 2021"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-
-      - title: KEPCO Electrical Engineering Scholarship
+      - title: Atom
         link: "#"
-        tagline: "FEB 2022"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-
-      - title: Gwangju Scholarship
+      - title: Delta
         link: "#"
-        tagline: "DEC 2022"
-
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
-#     intro: |
-#       You can list your publications in this section. Lorem ipsum dolor sit
-#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-#       bibendum fringilla a eu lectus.
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
     papers:
-      - title: An Abnormal Rack Detection Scheme for ESS Fire Prevention
+      - title: The Art of Computer Programming
         link: "#"
-        authors: S. Park, G. Seo, and E. Hwang
-        conference: 31st Joint Conf. Commun. Info. (JCCI), 2021
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
 
-#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-#         link: "#"
-#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-#       - title: A syntax directed compiler for Algol 60
-#         link: "#"
-#         authors: Edgar T. Irons
-#         conference: "Comm. ACM 4 (1961), 51–55"
+      - title: A syntax directed compiler for Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python
-        level: 70%
+      - name: Python & Django
+        level: 98%
 
-      - name: C/C++
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
         level: 60%
-
-      - name: pyTorch/TensorFlow
-        level: 50%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
