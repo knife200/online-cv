@@ -62,20 +62,18 @@ experiences:
       time: 2022
       company: SK hynix
       details: | Researched and developed verification of SRAM with UVM(Universal Verification Methodology).
-      
+
 
 
 projects:
     title: Award
-
-publications:
-
-    papers:
-   assignments:
+    assignments:
       - title: 3rd Prize in AIX Deep Learning Hardware Design Contest
         link: "#"
         tagline: "July 2022"
-
+        
+publications:
+    title: Publications
 
 skills:
     title: Skills &amp; Proficiency
