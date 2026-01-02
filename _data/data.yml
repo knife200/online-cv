@@ -3,6 +3,7 @@
 #
 
 sidebar:
+    education: True
     # Profile information
     name: Joonyoung Seo
     tagline: Integrated M.S.–Ph.D. Program, CSDL, POSTECH (Korea)
