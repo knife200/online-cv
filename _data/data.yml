@@ -90,8 +90,7 @@ publications:
       - title: Thermal-Aware Floorplanning for 3D ICS
         authors: Joonyoung Seo, Seokhyeong Kang
         conference: Korean Conference on Semiconductors 2023
-
-    papers: 
+        
       - title: Enhancing Timing Closure via Spatially Embedded Graph Transformer with Low Power/Area Overhead
         link: https://ieeexplore.ieee.org/document/11240684
         authors: Joonyoung Seo, Jonghyeon Nam, Howoo Jang, Yoonseok Jung, Seokhyeong Kang
