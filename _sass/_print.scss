@@ -1,45 +1,69 @@
-@media print
-   {
-    @page {
-        size: A4;
-    }
-    body {
-       font-size: 12pt;
-    }
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm;
+  }
 
-    img.avatar {
-        filter: grayscale(1);
-        -webkit-filter: greyscale(1);
-    }
-   .main-wrapper .time {
-       float: right;
-        color: black !important;
-        -webkit-print-color-adjust: exact; 
-   }
-    .sidebar-wrapper {
-        position: static;
-        float: right;
-        width: 40%;
-        -webkit-print-color-adjust: exact; 
-    }
 
-    .remove-container.container-block {
-       display: none;
-    }
+  html, body, * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
 
-    footer {
-       display: none;
-    }
+  body {
+    font-size: 12pt;
+  }
 
-    .skillset .level-bar-inner {
-       background-color: black !important;
-       -webkit-print-color-adjust: exact; 
-    }
 
-   .fa-inverse,
-   .fa-inverse:after,
-   .fa-inverse:before {
-     color: #ffffff !important;
-   }
+  a[href^="tel:"]::after,
+  a[href^="mailto:"]::after {
+    content: "" !important;
+  }
 
+
+
+  img.avatar {
+    filter: none !important;
+    -webkit-filter: none !important;
+  }
+
+  .main-wrapper .time {
+    float: right;
+    color: inherit !important;
+  }
+
+  .sidebar-wrapper {
+    position: static;
+    float: right;
+    width: 40%;
+  }
+
+  .remove-container.container-block {
+    display: none !important;
+  }
+
+  footer {
+    display: none !important;
+  }
+
+  .skillset .level-bar-inner {
+    background-color: inherit !important;
+  }
+
+
+  .fa-inverse,
+  .fa-inverse:after,
+  .fa-inverse:before {
+    color: #ffffff !important;
+  }
+
+
+  .section,
+  .experience,
+  .education,
+  .projects,
+  .publications,
+  .skills {
+    page-break-inside: avoid;
+  }
 }
