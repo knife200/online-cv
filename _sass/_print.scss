@@ -1,41 +1,70 @@
 @media print {
+
+  /* Page setup */
   @page {
     size: A4;
     margin: 12mm;
-  }
-
-
-  html, body, * {
-    -webkit-print-color-adjust: exact !important;
-    print-color-adjust: exact !important;
   }
 
   body {
     font-size: 12pt;
   }
 
-
-  a[href^="tel:"]::after,
-  a[href^="mailto:"]::after {
-    content: "" !important;
+  /* ---------------------------------------------------------
+     1) Force color printing
+     --------------------------------------------------------- */
+  html, body, * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 
+  /* ---------------------------------------------------------
+     2) Kill ALL grayscale/filters in print
+        (some themes apply grayscale on print globally)
+     --------------------------------------------------------- */
+  html, body, * {
+    filter: none !important;
+    -webkit-filter: none !important;
+  }
 
-
+  /* Avatar (extra safety) */
   img.avatar {
     filter: none !important;
     -webkit-filter: none !important;
   }
 
+  /* ---------------------------------------------------------
+     3) Stop printing link targets like: (tel:...), (mailto:...), (https://...)
+        Many themes have: a[href]:after { content: " (" attr(href) ")" }
+        We override it HARD.
+     --------------------------------------------------------- */
+  a[href]::after,
+  a[href]::before,
+  a[href]:after,
+  a[href]:before {
+    content: "" !important;
+    display: none !important;
+  }
+
+  /* (Optional) If your theme uses <abbr title="..."> for links */
+  abbr[title]::after,
+  abbr[title]:after {
+    content: "" !important;
+    display: none !important;
+  }
+
+  /* ---------------------------------------------------------
+     4) Layout tweaks (based on your original)
+     --------------------------------------------------------- */
   .main-wrapper .time {
     float: right;
-    color: inherit !important;
+    color: inherit !important; /* don't force black */
   }
 
   .sidebar-wrapper {
-    position: static;
-    float: right;
-    width: 40%;
+    position: static !important;
+    float: right !important;
+    width: 40% !important;
   }
 
   .remove-container.container-block {
@@ -46,24 +75,26 @@
     display: none !important;
   }
 
+  /* Skill bar: don't force black (let theme colors show if any) */
   .skillset .level-bar-inner {
     background-color: inherit !important;
   }
 
-
+  /* FontAwesome inverse stays white */
   .fa-inverse,
   .fa-inverse:after,
   .fa-inverse:before {
     color: #ffffff !important;
   }
 
-
+  /* Avoid awkward splits */
   .section,
   .experience,
   .education,
   .projects,
   .publications,
   .skills {
-    page-break-inside: avoid;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
   }
 }
