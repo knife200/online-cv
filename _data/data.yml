@@ -3,8 +3,6 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Joonyoung Seo
@@ -54,15 +52,15 @@ career-profile:
       
 
 education:
-    - degree: BSc in Electrical Engineering
+    - degree: BSc in Department of Electrical Engineering
       university: POSTECH
       time: 2019 - 2023
       details: |
 
-    - degree: MSc in Electrical Engineering
+    - degree:  Integrated M.S.–Ph.D. Program in Department of Electrical Engineering
       university: POSTECH
       time: 2023 - Present
-      details: |
+      details: | CSDL
 
 experiences:
     - role: Intern
