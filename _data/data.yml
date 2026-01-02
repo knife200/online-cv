@@ -43,24 +43,23 @@ sidebar:
       - item:
         link:
 
+    education:
+        - degree: BSc in Department of Electrical Engineering
+          university: POSTECH
+          time: 2019 - 2023
+          details: |
+    
+        - degree:  Integrated M.S.–Ph.D. Program in Department of Electrical Engineering
+          university: POSTECH
+          time: 2023 - Present
+          details: | 
+
 career-profile:
     title: Career Profile
     summary: |
       I received the B.S. degree in Electrical Engineering in 2023 from POSTECH.
       I am currently in the integrated M.S.–Ph.D. program at CSDL, POSTECH.
       
-
-education:
-    - degree: BSc in Department of Electrical Engineering
-      university: POSTECH
-      time: 2019 - 2023
-      details: |
-
-    - degree:  Integrated M.S.–Ph.D. Program in Department of Electrical Engineering
-      university: POSTECH
-      time: 2023 - Present
-      details: | 
-
 experiences:
     - role: Intern
       time: 2022
