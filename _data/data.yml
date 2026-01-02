@@ -32,27 +32,16 @@ sidebar:
       - idiom: English
         level: Normal
 
+education:
+    - degree: BSc in Department of Electrical Engineering
+      university: POSTECH
+      time: 2019 - 2023
+      details: |
 
-    interests:
-      - item: 
-        link:
-
-      - item: 
-        link:
-
-      - item:
-        link:
-
-    education:
-        - degree: BSc in Department of Electrical Engineering
-          university: POSTECH
-          time: 2019 - 2023
-          details: |
-    
-        - degree:  Integrated M.S.–Ph.D. Program in Department of Electrical Engineering
-          university: POSTECH
-          time: 2023 - Present
-          details: | 
+    - degree:  Integrated M.S.–Ph.D. Program in Department of Electrical Engineering
+      university: POSTECH
+      time: 2023 - Present
+      details: | 
 
 career-profile:
     title: Career Profile
